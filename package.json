@@ -1,0 +1,12 @@
+{
+  "name": "backend-design",
+  "private": true,
+  "scripts": {
+    "dev:hex": "pnpm -C design-pattern/hexagonal-architecture dev",
+    "build:hex": "pnpm -C design-pattern/hexagonal-architecture build",
+    "start:hex": "pnpm -C design-pattern/hexagonal-architecture start",
+    "dev:layered": "pnpm -C design-pattern/layered-architecture dev",
+    "build:layered": "pnpm -C design-pattern/layered-architecture build",
+    "start:layered": "pnpm -C design-pattern/layered-architecture start"
+  }
+}
